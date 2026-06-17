@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>人工制品概览 · PCIO Expert Review Portal</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">Artifact Overview</p>
+      <h1>PCIO 人工制品设计逻辑</h1>
+      <p class="subtitle">本页展示 PCIO 四层能力模型、诊断闭环、模块结构与可复用设计原则，供专家判断设计知识贡献是否清楚。</p>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <div class="wrap">
+      <a href="index.html">首页</a>
+      <a class="active" href="artifact_overview.html">人工制品概览</a>
+      <a href="module_demo.html">模块演示</a>
+      <a href="evidence_package.html">证据包</a>
+      <a href="case_p.html">案例P</a>
+      <a href="case_t.html">案例T</a>
+      <a href="expert_review.html">专家评分</a>
+      <a href="downloads.html">下载材料</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="notice method">
+      <h2>审核关注点</h2>
+      <p>请重点审阅：PCIO 分层是否符合智能制造能力递进逻辑；模块之间是否形成可追溯的诊断链；设计原则是否能够迁移到相近的工业诊断工具设计中。</p>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h2>PCIO 四层能力模型</h2>
+        <div class="layer"><strong>P：Perception 感知基础</strong><br>关注数据采集、传感、设备状态可见性和基础信息完整性。</div>
+        <div class="layer"><strong>C：Connectivity 连接集成</strong><br>关注系统互联、数据贯通、业务流程与设备/区域之间的映射。</div>
+        <div class="layer"><strong>I：Insight 诊断洞察</strong><br>关注风险识别、异常解释、指标建议和决策支持信息的形成。</div>
+        <div class="layer"><strong>O：Optimization 优化闭环</strong><br>关注改进方案比较、ROI 情景估算、PDCA 复测计划与人工确认机制。</div>
+      </article>
+
+      <article class="card">
+        <h2>诊断到 PDCA 闭环</h2>
+        <div class="pipeline">
+          <div class="node"><strong>诊断</strong>收集组织画像与题项响应</div>
+          <div class="node"><strong>风险</strong>根据规则生成候选风险</div>
+          <div class="node"><strong>KPI</strong>提出可跟踪的指标建议</div>
+          <div class="node"><strong>ROI 情景</strong>比较方案假设与敏感项</div>
+          <div class="node"><strong>PDCA</strong>形成后续复测与人工确认计划</div>
+        </div>
+        <p class="small">闭环是决策支持逻辑，不代表已经取得纵向改善证据。</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>工具包模块结构</h2>
+      <figure class="portal-figure">
+        <img src="assets/figures/Figure_2_PCIO_Architecture_SCI.png" alt="PCIO Toolkit总体架构与数据流图">
+        <figcaption>图2 PCIO Toolkit总体架构与数据流。该图用于展示人工制品结构、输入治理、数据准备、分析运行和输出模块，不代表绩效验证。</figcaption>
+      </figure>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>模块</th>
+              <th>功能定位</th>
+              <th>输出形式</th>
+              <th>证据边界</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>企业画像</td>
+              <td>界定行业场景、规模、基础信息化和诊断范围</td>
+              <td>场景摘要、诊断前提、适用边界</td>
+              <td>仅支持后续诊断上下文，不构成绩效证据</td>
+            </tr>
+            <tr>
+              <td>问卷与 PCIO 得分</td>
+              <td>将题项响应映射到 PCIO 能力层</td>
+              <td>分层得分、短板提示、基线映射</td>
+              <td>真实 T0 数据支持基线诊断，不支持纵向变化判断</td>
+            </tr>
+            <tr>
+              <td>风险矩阵</td>
+              <td>根据能力短板和场景特征生成候选风险</td>
+              <td>风险清单、风险等级、人工确认提示</td>
+              <td>规则合理性需专家评审和现场核验补充</td>
+            </tr>
+            <tr>
+              <td>KPI 建议</td>
+              <td>把诊断问题转化为可跟踪指标</td>
+              <td>KPI 建议、数据口径、跟踪频率</td>
+              <td>仅支持指标设定，不表示 KPI 已改善</td>
+            </tr>
+            <tr>
+              <td>ROI 情景估算</td>
+              <td>用于方案比较和成本收益假设敏感性讨论</td>
+              <td>情景参数、估算区间、假设说明</td>
+              <td>不代表真实收益验证</td>
+            </tr>
+            <tr>
+              <td>报告与 PDCA</td>
+              <td>生成诊断报告和后续复测计划</td>
+              <td>报告摘要、行动项、复测节点</td>
+              <td>复测计划本身不等于复测结果</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>设计原则</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>编号</th>
+              <th>设计原则</th>
+              <th>含义</th>
+              <th>专家审核问题</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>DP1</td>
+              <td>基础能力优先，而非直接优化</td>
+              <td>先评估感知与连接基础，再讨论洞察和优化建议。</td>
+              <td>该递进顺序是否符合资源受限组织的现实约束？</td>
+            </tr>
+            <tr>
+              <td>DP2</td>
+              <td>证据关联的诊断与决策支持</td>
+              <td>每个风险和 KPI 建议应回连到题项、场景或规则依据。</td>
+              <td>现有输出是否足够可追溯？</td>
+            </tr>
+            <tr>
+              <td>DP3</td>
+              <td>低成本、模块化部署</td>
+              <td>优先采用轻量、本地、可拆分的工具结构。</td>
+              <td>模块边界是否便于中小组织采用？</td>
+            </tr>
+            <tr>
+              <td>DP4</td>
+              <td>人机协同与人工确认</td>
+              <td>风险、KPI 和 ROI 情景均需保留人工判断入口。</td>
+              <td>哪些输出必须由工程师或管理者确认？</td>
+            </tr>
+            <tr>
+              <td>DP5</td>
+              <td>基于 PDCA 的持续复测</td>
+              <td>工具生成复测计划，但不替代真实跟踪评价。</td>
+              <td>复测周期和指标口径是否合理？</td>
+            </tr>
+            <tr>
+              <td>DP6</td>
+              <td>情境适配与跨案例可比性</td>
+              <td>保留通用 PCIO 框架，同时允许流程生产和罐区储运场景差异化表达。</td>
+              <td>哪些场景变量需要在报告中显式说明？</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <figure class="portal-figure">
+        <img src="assets/figures/Figure_7_PDCA_Improvement_Plan.png" alt="PCIO Toolkit PDCA持续复测与改进计划示例图">
+        <figcaption>图3 PDCA持续复测与计划输出示例。该图为合成演示输出，用于说明人工制品如何生成复测计划和行动建议，不表示部署后改善或真实ROI实现。</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">请结合专家评分表评价以上设计逻辑的合理性、清晰性和可复用性。</div>
+  </footer>
+</body>
+</html>
