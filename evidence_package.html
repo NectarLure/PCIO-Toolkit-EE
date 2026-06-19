@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>证据包 · PCIO Expert Review Portal</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">Evidence Package</p>
+      <h1>评价证据与可支持结论</h1>
+      <p class="subtitle">本页将自动化测试、部署可行性检查、合成案例测试和真实 T0 案例分开呈现，避免混用不同证据类型。</p>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <div class="wrap">
+      <a href="index.html">首页</a>
+      <a href="artifact_overview.html">人工制品概览</a>
+      <a href="module_demo.html">模块演示</a>
+      <a class="active" href="evidence_package.html">证据包</a>
+      <a href="case_p.html">案例P</a>
+      <a href="case_t.html">案例T</a>
+      <a href="expert_review.html">专家评分</a>
+      <a href="downloads.html">下载材料</a>
+      <a class="language-toggle" href="evidence_package_en.html" lang="en">English</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="metric-grid">
+      <div class="metric"><strong>21</strong><span>自动化测试通过项，用于技术正确性与功能完整性说明</span></div>
+      <div class="metric"><strong>2</strong><span>真实组织 T0 基线诊断案例，均为脱敏汇总表达</span></div>
+      <div class="metric"><strong>1</strong><span>合成案例数据集，用于流程测试和规则响应演示</span></div>
+      <div class="metric"><strong>0</strong><span>当前不包含 T1/T2 复测或真实 ROI 实现数据</span></div>
+    </section>
+
+    <section class="notice boundary">
+      <h2>证据类型不能互相替代</h2>
+      <p>自动化测试可以说明模块运行一致性；合成案例可以展示流程和规则响应；真实 T0 案例可以说明基线诊断和场景适配。三类证据均不能替代纵向绩效跟踪或因果研究设计。</p>
+    </section>
+
+    <section class="card">
+      <h2>证据类型与结论边界</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>证据类型</th>
+              <th>当前材料</th>
+              <th>可支持结论</th>
+              <th>不可支持结论</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>自动化测试</td>
+              <td>21 项测试通过摘要</td>
+              <td>技术正确性、功能完整性、模块运行一致性</td>
+              <td>组织绩效提升、因果效果、真实 ROI 实现</td>
+            </tr>
+            <tr>
+              <td>部署可行性检查</td>
+              <td>本地静态运行与工具链可执行性检查</td>
+              <td>低成本运行和复现分析的可行性</td>
+              <td>真实现场长期运行或生产环境稳定性</td>
+            </tr>
+            <tr>
+              <td>合成案例测试</td>
+              <td>测试数据下的端到端流程演示</td>
+              <td>流程完整性、规则响应、输出差异化演示</td>
+              <td>真实工业效果、统计推广、现场适配结果</td>
+            </tr>
+            <tr>
+              <td>真实 T0 案例</td>
+              <td>案例P与案例T的脱敏基线汇总</td>
+              <td>真实组织基线诊断、风险识别、KPI建议、PDCA后续计划</td>
+              <td>部署后改善、纵向变化、客观绩效改善</td>
+            </tr>
+            <tr>
+              <td>ROI 情景</td>
+              <td>规划阶段参数和情景比较</td>
+              <td>方案讨论、假设敏感性和决策支持</td>
+              <td>真实收益验证或财务回报实现</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h2>自动化测试摘要</h2>
+        <p>测试覆盖问卷解析、PCIO 映射、风险规则、KPI建议、ROI情景估算、报告生成、导出流程和中英文术语一致性等功能点。该证据用于支持工具模块是否按设计逻辑运行。</p>
+        <figure class="portal-figure compact">
+          <img src="assets/figures/Figure_4_Statistical_Dashboard.png" alt="PCIO统计分析仪表盘示例">
+          <figcaption>图11 统计分析仪表盘示例。该图用于展示工具输出和分析界面；自动化测试仅支持技术正确性与功能完整性，不证明组织绩效效果。</figcaption>
+        </figure>
+        <div class="tag-row">
+          <span class="tag green">技术正确性</span>
+          <span class="tag green">功能完整性</span>
+          <span class="tag green">模块一致性</span>
+          <span class="tag red">不支持组织绩效结论</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>合成案例测试</h2>
+        <p>合成数据用于检查不同输入组合下工具是否生成差异化的风险、KPI 和报告输出。合成案例不是企业现场验证，不能作为真实工业效果证据。</p>
+        <div class="tag-row">
+          <span class="tag blue">流程演示</span>
+          <span class="tag blue">规则响应检查</span>
+          <span class="tag blue">输出差异化演示</span>
+          <span class="tag red">非真实组织样本</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h2>真实 T0 基线案例</h2>
+        <p>案例P和案例T来自第一轮基线调查，经脱敏后仅保留样本量、汇总倾向、PCIO短板、候选风险、KPI建议和PDCA后续计划。由于缺少后续复测，不能描述为长期运行结果。</p>
+        <div class="tag-row">
+          <span class="tag green">基线诊断</span>
+          <span class="tag green">情境适配</span>
+          <span class="tag green">形成性现场评价</span>
+          <span class="tag amber">小样本</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>仍需补充的证据</h2>
+        <p>未来投稿增强可包括专家评审结果、访谈记录、T1/T2复测、客观KPI跟踪、对照或准实验设计，以及短量表开发和心理测量检验。当前门户只提供评审方案与空白评分表，不生成专家评分结果。</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">请在评分时明确区分“技术可行性”“形成性适配”和“组织绩效证据”。</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>模块演示 · PCIO Expert Review Portal</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">Module Demonstration</p>
+      <h1>PCIO Toolkit 模块演示</h1>
+      <p class="subtitle">本页以脱敏和占位方式展示主要模块的输出结构。页面不使用原始企业截图或敏感数据。</p>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <div class="wrap">
+      <a href="index.html">首页</a>
+      <a href="artifact_overview.html">人工制品概览</a>
+      <a class="active" href="module_demo.html">模块演示</a>
+      <a href="evidence_package.html">证据包</a>
+      <a href="case_p.html">案例P</a>
+      <a href="case_t.html">案例T</a>
+      <a href="expert_review.html">专家评分</a>
+      <a href="downloads.html">下载材料</a>
+      <a class="language-toggle" href="module_demo_en.html" lang="en">English</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="notice warning">
+      <h2>演示材料说明</h2>
+      <p>以下图形为结构占位图或脱敏摘要，不是原始系统截图。合成案例仅用于流程测试和规则响应演示；真实 T0 案例仅用于基线诊断说明。</p>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h2>企业画像</h2>
+        <figure class="portal-figure compact">
+          <img src="assets/figures/Figure_8_Streamlit_Interface.png" alt="PCIO Toolkit企业画像界面示例">
+          <figcaption>图4 企业画像界面示例。该图用于展示工具界面结构，字段为空白或通用提示，不包含真实企业数据，也不代表绩效验证。</figcaption>
+        </figure>
+        <p>画像模块用于限定诊断上下文，例如流程生产型企业或罐区储运运营场景。该模块不展示具体地址、客户、供应商或真实设备信息。</p>
+      </article>
+
+      <article class="card">
+        <h2>问卷结构</h2>
+        <figure class="portal-figure compact">
+          <img src="assets/figures/Figure_3_PCIO_Input_Interface.png" alt="PCIO Toolkit企业画像与匿名问卷界面示例">
+          <figcaption>图5 问卷与企业画像界面示例。该图使用匿名或合成演示内容，用于展示输入结构，不包含原始调查数据。</figcaption>
+        </figure>
+        <p>题项用于形成 PCIO 基线映射。当前真实案例样本量较小，适合描述基线状态与形成性适配，不适合进行量表效度或大样本统计推断。</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>输出链路示例</h2>
+      <div class="pipeline">
+        <div class="node"><strong>PCIO 得分</strong>识别感知、连接、洞察、优化层短板</div>
+        <div class="node"><strong>风险矩阵</strong>生成候选风险并提示人工确认</div>
+        <div class="node"><strong>KPI 建议</strong>定义指标口径和复测频率</div>
+        <div class="node"><strong>ROI 情景</strong>形成方案比较，不代表真实收益</div>
+        <div class="node"><strong>PDCA 计划</strong>设定后续行动与 T1/T2 复测准备</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>PCIO得分与统计仪表盘示例</h2>
+      <figure class="portal-figure">
+        <img src="assets/figures/Figure_4_Statistical_Dashboard.png" alt="PCIO统计仪表盘和得分输出示例">
+        <figcaption>图6 PCIO得分与统计仪表盘示例。该图为合成演示输出，用于说明统计分析和基线诊断展示方式，不表示真实组织部署后改善或量表效度已完成验证。</figcaption>
+      </figure>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h2>风险矩阵示例</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>风险类别</th>
+                <th>触发依据</th>
+                <th>输出方式</th>
+                <th>人工确认</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>数据采集覆盖不足</td>
+                <td>感知层题项较弱或数据口径不一致</td>
+                <td>候选风险提示</td>
+                <td>需确认关键设备或区域的数据来源</td>
+              </tr>
+              <tr>
+                <td>业务与设备映射不稳定</td>
+                <td>连接层响应显示流程、区域或任务映射不足</td>
+                <td>中等优先级风险</td>
+                <td>需确认现场流程和系统记录是否一致</td>
+              </tr>
+              <tr>
+                <td>优化建议证据不足</td>
+                <td>洞察或优化层缺少可跟踪 KPI</td>
+                <td>改进前置条件提示</td>
+                <td>需确认 KPI 口径与责任人</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <figure class="portal-figure compact">
+          <img src="assets/figures/Figure_5_Risk_Matrix.png" alt="风险矩阵与KPI建议输出示例">
+          <figcaption>图7 风险矩阵输出示例。该图为合成/示例输出，用于展示风险和KPI建议的呈现方式，不是安全结论、采购建议或绩效验证。</figcaption>
+        </figure>
+      </article>
+
+      <article class="card">
+        <h2>KPI 建议示例</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>KPI 类型</th>
+                <th>建议指标</th>
+                <th>用途</th>
+                <th>边界</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>数据基础</td>
+                <td>关键数据字段完整率</td>
+                <td>评估诊断数据基础</td>
+                <td>不表示业务结果已经改变</td>
+              </tr>
+              <tr>
+                <td>过程控制</td>
+                <td>异常事件闭环记录完整率</td>
+                <td>支持问题追踪</td>
+                <td>需现场核验记录口径</td>
+              </tr>
+              <tr>
+                <td>复测准备</td>
+                <td>T1/T2 复测题项完成率</td>
+                <td>支持后续纵向评价</td>
+                <td>当前尚无复测结果</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <figure class="portal-figure compact">
+          <img src="assets/figures/Figure_5_Risk_Matrix.png" alt="KPI建议输出示例">
+          <figcaption>图8 KPI建议输出示例。该图为合成/示例输出，用于模块演示；其中目标值为规划参考，不表示真实KPI改善。</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h2>ROI 情景估算</h2>
+        <figure class="portal-figure compact">
+          <img src="assets/figures/Figure_7_PDCA_Improvement_Plan.png" alt="ROI情景估算与PDCA计划输出示例">
+          <figcaption>图9 ROI情景估算与PDCA计划输出示例。该图为合成演示输出，ROI仅为情景估算和方案比较，不代表真实收益验证。</figcaption>
+        </figure>
+        <p>ROI 模块用于帮助专家和组织讨论方案假设。所有输出应表述为“情景估算”或“规划比较”，不能表述为真实收益验证。</p>
+      </article>
+
+      <article class="card">
+        <h2>报告导出示例</h2>
+        <figure class="portal-figure compact">
+          <img src="assets/figures/Figure_6_Bilingual_Case_Report.png" alt="双语个性化案例报告导出示例">
+          <figcaption>图10 双语报告导出示例。该图为合成演示报告，用于展示报告结构和双语一致性，不包含真实企业信息，也不表示部署后绩效改善。</figcaption>
+        </figure>
+        <p>报告导出模块用于形成结构化审核材料。导出内容应保持脱敏、汇总和证据边界说明，避免包含原始答卷、真实姓名或具体设备编号。</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">模块演示仅展示结构和输出逻辑，不构成真实组织绩效证据。</div>
+  </footer>
+</body>
+</html>

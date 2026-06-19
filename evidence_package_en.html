@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Evidence Package · PCIO Expert Review Portal</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">Evidence Package</p>
+      <h1>Evaluation Evidence and Supported Claims</h1>
+      <p class="subtitle">This page separates automated tests, deployment-feasibility checks, synthetic demonstrations, and real T0 baseline cases to avoid mixing evidence types.</p>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <div class="wrap">
+      <a href="index_en.html">Home</a>
+      <a href="artifact_overview_en.html">Artifact</a>
+      <a href="module_demo_en.html">Module Demo</a>
+      <a class="active" href="evidence_package_en.html">Evidence</a>
+      <a href="case_p_en.html">Case P</a>
+      <a href="case_t_en.html">Case T</a>
+      <a href="expert_review_en.html">Review Form</a>
+      <a href="downloads_en.html">Downloads</a>
+      <a class="language-toggle" href="evidence_package.html" lang="zh-CN">中文</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="metric-grid">
+      <div class="metric"><strong>21</strong><span>Automated tests used for technical correctness and functional completeness</span></div>
+      <div class="metric"><strong>2</strong><span>Anonymised real T0 baseline cases</span></div>
+      <div class="metric"><strong>1</strong><span>Synthetic case dataset for workflow and rule-response demonstration</span></div>
+      <div class="metric"><strong>0</strong><span>No T1/T2 follow-up or realised ROI evidence</span></div>
+    </section>
+
+    <section class="notice boundary">
+      <h2>Evidence Types Are Not Interchangeable</h2>
+      <p>Automated tests support module consistency. Synthetic cases demonstrate workflow and rule response. Real T0 cases support baseline diagnosis and contextual fit. None of these evidence types replaces longitudinal performance tracking or causal research design.</p>
+    </section>
+
+    <section class="card">
+      <h2>Evidence Type and Claim Boundary</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Evidence Type</th><th>Current Material</th><th>Supported Claims</th><th>Unsupported Claims</th></tr></thead>
+          <tbody>
+            <tr><td>Automated tests</td><td>Summary of 21 passed tests</td><td>Technical correctness, functional completeness, module consistency</td><td>Performance improvement, causal effect, realised ROI</td></tr>
+            <tr><td>Deployment feasibility</td><td>Local static operation and toolchain checks</td><td>Low-cost operation and reproducible analysis feasibility</td><td>Long-term field operation or production stability</td></tr>
+            <tr><td>Synthetic case testing</td><td>End-to-end workflow demonstration with test data</td><td>Workflow completeness, rule response, output differentiation</td><td>Real industrial effect, statistical generalisation, field fit</td></tr>
+            <tr><td>Real T0 cases</td><td>Anonymised summaries of Case P and Case T</td><td>Baseline diagnosis, risk identification, KPI suggestions, PDCA follow-up plan</td><td>Post-deployment improvement, longitudinal change, objective KPI improvement</td></tr>
+            <tr><td>ROI scenario</td><td>Planning-stage assumptions and option comparison</td><td>Decision support and sensitivity discussion</td><td>Realised financial return or benefit validation</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h2>Automated Test Summary</h2>
+        <p>Tests cover survey parsing, PCIO mapping, risk rules, KPI suggestions, ROI scenario estimation, report generation, export flow, and bilingual terminology consistency. This evidence supports whether modules run according to the design logic.</p>
+        <figure class="portal-figure compact">
+          <img src="assets/figures/Figure_4_Statistical_Dashboard.png" alt="PCIO analytics dashboard example">
+          <figcaption>Figure 11. Statistical dashboard example. The figure shows analysis output and interface structure. Automated tests support technical correctness and functional completeness only, not organisational performance effects.</figcaption>
+        </figure>
+        <div class="tag-row">
+          <span class="tag green">Technical correctness</span>
+          <span class="tag green">Functional completeness</span>
+          <span class="tag green">Module consistency</span>
+          <span class="tag red">No performance claim</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Synthetic Case Testing</h2>
+        <p>Synthetic data are used to check whether different inputs generate differentiated risks, KPIs, and reports. Synthetic cases are not field validation and cannot be used as evidence of real industrial effects.</p>
+        <div class="tag-row">
+          <span class="tag blue">Workflow demonstration</span>
+          <span class="tag blue">Rule-response check</span>
+          <span class="tag blue">Output differentiation</span>
+          <span class="tag red">Not real organisation data</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h2>Real T0 Baseline Cases</h2>
+        <p>Case P and Case T are based on first-round baseline materials. The public site retains only anonymised sample counts, baseline patterns, PCIO gaps, candidate risks, KPI suggestions, and PDCA plans. Because no follow-up data are available, they must not be described as long-term operation results.</p>
+        <div class="tag-row">
+          <span class="tag green">Baseline diagnosis</span>
+          <span class="tag green">Contextual fit</span>
+          <span class="tag green">Formative field evaluation</span>
+          <span class="tag amber">Small sample</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Evidence Still Needed</h2>
+        <p>Future work should include expert review results, interviews, T1/T2 follow-up, objective KPI tracking, control or quasi-experimental designs, short-scale development, and psychometric testing. This public site contains only protocols and blank forms, not expert results.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">Please distinguish technical feasibility, formative fit, and organisational performance evidence.</div>
+  </footer>
+</body>
+</html>
