@@ -5,13 +5,21 @@
 ## 页面文件
 
 - `index.html`
+- `index_en.html`
 - `artifact_overview.html`
+- `artifact_overview_en.html`
 - `module_demo.html`
+- `module_demo_en.html`
 - `evidence_package.html`
+- `evidence_package_en.html`
 - `case_p.html`
+- `case_p_en.html`
 - `case_t.html`
+- `case_t_en.html`
 - `expert_review.html`
+- `expert_review_en.html`
 - `downloads.html`
+- `downloads_en.html`
 
 ## 公开说明与检查文件
 
@@ -43,6 +51,9 @@
 - `downloads/expert_review_form.md`
 - `downloads/expert_review_form.csv`
 - `downloads/expert_review_instruction.md`
+- `downloads/expert_review_form_en.md`
+- `downloads/expert_review_form_en.csv`
+- `downloads/expert_review_instruction_en.md`
 
 ## 可公开专家审核材料包
 
@@ -57,4 +68,4 @@
 
 ## 公开版边界
 
-本公开版只包含静态页面、样式、脚本、公开图片、空白专家评审表、填写说明、高度脱敏案例摘要和证据边界说明。未包含论文初稿、原始调查数据、企业案例原文、投稿准备材料、专家已填写评价或任何真实企业输出。
+本公开版只包含中英双语静态页面、样式、脚本、公开图片、空白专家评审表、填写说明、高度脱敏案例摘要和证据边界说明。未包含论文初稿、原始调查数据、企业案例原文、投稿准备材料、专家已填写评价或任何真实企业输出。

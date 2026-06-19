@@ -105,6 +105,19 @@ main,
   text-decoration: none;
 }
 
+.site-nav a.language-toggle {
+  margin-left: auto;
+  background: var(--blue);
+  color: #fff;
+  font-weight: 700;
+}
+
+.site-nav a.language-toggle:hover,
+.site-nav a.language-toggle:focus {
+  background: #183f82;
+  color: #fff;
+}
+
 main {
   padding: 28px 16px 56px;
 }
@@ -473,6 +486,10 @@ button.secondary,
 }
 
 @media (max-width: 760px) {
+  .site-nav a.language-toggle {
+    margin-left: 0;
+  }
+
   .rating-row {
     grid-template-columns: 1fr repeat(5, 42px);
     font-size: 0.9rem;
